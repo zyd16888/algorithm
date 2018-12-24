@@ -9,6 +9,8 @@ import java.util.Stack;
  *
  * 使用两个栈来实现：一个栈用来保存栈中元素，功能与正常栈无区别，另外一个用来保存每一步的最小值
  *
+ * stackData >= stackMin 时，保留最小值不压入
+ *
  * @author dong
  * @date 2018-12-24 10:20
  */
