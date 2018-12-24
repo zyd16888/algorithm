@@ -12,11 +12,11 @@ import java.util.Stack;
  * @author dong
  * @date 2018-12-24 10:20
  */
-public class GetMinStrack1 {
+public class GetMinStack1 {
     private Stack<Integer> stackData;
     private Stack<Integer> stackMin;
 
-    public GetMinStrack1() {
+    public GetMinStack1() {
         this.stackData =new Stack<Integer>();
         this.stackMin =new Stack<Integer>();
     }
