@@ -44,8 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Helper.cs" />
-    <Compile Include="nowCoderCompetition\Aand204.cs" />
-    <Compile Include="nowCoderCompetition\AandCalculator.cs" />
+    <Compile Include="nowCoderCompetition\Day-1\Aand204.cs" />
+    <Compile Include="nowCoderCompetition\Day-1\AandCalculator.cs" />
+    <Compile Include="nowCoderCompetition\Day-2\VirgoAndExam.cs" />
+    <Compile Include="nowCoderCompetition\Day-2\VirgoAndRetakeCost.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sort\BubbleSorter.cs" />
@@ -53,6 +55,7 @@
     <Compile Include="Sort\MergeSorter.cs" />
     <Compile Include="Sort\QuickSorter.cs" />
     <Compile Include="Sort\SelectionSorter.cs" />
+    <Compile Include="Sort\ShellSorter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
