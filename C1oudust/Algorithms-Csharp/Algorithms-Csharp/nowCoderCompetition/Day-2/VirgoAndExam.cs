@@ -39,12 +39,12 @@ namespace Algorithms_Csharp.nowCoderCompetition
             int time = 0;
             bool can = true;
             int num = int.Parse(Console.ReadLine());
-            List<test> t = new List<test>();
+            List<Exam> t = new List<Exam>();
             string[] s1 = Console.ReadLine().Split(' ');
             string[] s2 = Console.ReadLine().Split(' ');
             for (int i = 0; i < num; i++)
             {
-                t.Add(new test(int.Parse(s1[i]), int.Parse(s2[i])));
+                t.Add(new Exam(int.Parse(s1[i]), int.Parse(s2[i])));
             }
             t.Sort(new MyCompare());
 
@@ -67,20 +67,20 @@ namespace Algorithms_Csharp.nowCoderCompetition
         }
     }
 
-    public class test
+    public class Exam
     {
         public int cost { get; set; }
         public int start { get; set; }
-        public test(int cost, int start)
+        public Exam(int cost, int start)
         {
             this.cost = cost;
             this.start = start;
         }
     }
 
-    public class MyCompare : IComparer<test>
+    public class MyCompare : IComparer<Exam>
     {
-        public int Compare(test x, test y)
+        public int Compare(Exam x, Exam y)
         {
             return x.start - y.start;
         }

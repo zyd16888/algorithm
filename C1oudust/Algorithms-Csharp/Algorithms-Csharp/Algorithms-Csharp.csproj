@@ -51,6 +51,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sort\BubbleSorter.cs" />
+    <Compile Include="Sort\HeapSorter.cs" />
     <Compile Include="Sort\InsertSorter.cs" />
     <Compile Include="Sort\MergeSorter.cs" />
     <Compile Include="Sort\QuickSorter.cs" />
