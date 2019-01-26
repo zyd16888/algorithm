@@ -21,7 +21,12 @@ public class Demo_D {
             arr[i][0] = sc.nextInt();
             arr[i][1] = sc.nextInt();
         }
-        Arrays.sort(arr, new Sort());               //按疲惫值由大到小排序
+        Arrays.sort(arr, new Sort());               //按时间由小到大排序
+        for(int i=0; i<n-1; i++){
+
+        }
+
+
         System.out.println("------------------");
         for (int i=0; i<n; i++){
             System.out.print(arr[i][0]+" ");
@@ -51,6 +56,9 @@ class Sort implements Comparator<int[]>{
 
     @Override
     public int compare(int[] o1, int[] o2) {
-        return o2[1] - o1[1];
+        if (o1[0] == o2[0] ){
+            return o2[1] - o1[1];
+        }
+        return o1[0] - o2[0];
     }
 }
