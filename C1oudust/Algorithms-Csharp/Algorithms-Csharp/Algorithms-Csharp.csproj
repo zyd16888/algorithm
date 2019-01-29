@@ -53,6 +53,10 @@
     <Compile Include="nowCoderCompetition\Day-3\VirgoAndGirl_3.cs" />
     <Compile Include="nowCoderCompetition\Day-3\VirgoAndRollCall.cs" />
     <Compile Include="nowCoderCompetition\Day-3\VirgoAndTrain.cs" />
+    <Compile Include="nowCoderCompetition\Day-4\AppleseAndColor.cs" />
+    <Compile Include="nowCoderCompetition\Day-4\AppleseAndPalindrome.cs" />
+    <Compile Include="nowCoderCompetition\Day-4\AppleseAndSlim.cs" />
+    <Compile Include="nowCoderCompetition\Day-4\AppleseAndStoreGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sort\BubbleSorter.cs" />

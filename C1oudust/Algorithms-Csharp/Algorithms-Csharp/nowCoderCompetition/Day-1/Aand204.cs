@@ -65,7 +65,7 @@ namespace Algorithms_Csharp.nowCoderCompetition
             int a = Int32.Parse(Console.ReadLine());
             int[] arr = new int[a];
             string[] s = Console.ReadLine().Split(' ');
-            ; for (int i = 0; i < a; i++)
+            for (int i = 0; i < a; i++)
             {
                 arr[i] = Int32.Parse(s[i]);
             }
