@@ -60,6 +60,7 @@
     <Compile Include="nowCoderCompetition\Day-5\CoolMath.cs" />
     <Compile Include="nowCoderCompetition\Day-5\CoolNumber.cs" />
     <Compile Include="nowCoderCompetition\Day-6\GasRange.cs" />
+    <Compile Include="nowCoderCompetition\Monthly\RinneLovesMath.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sort\BubbleSorter.cs" />
