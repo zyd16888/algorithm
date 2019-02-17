@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\FirstNotRepeat.cs" />
+    <Compile Include="Array\SecondSmallest.cs" />
     <Compile Include="Common\Helper.cs" />
     <Compile Include="nowCoderCompetition\Day-1\Aand204.cs" />
     <Compile Include="nowCoderCompetition\Day-1\AandCalculator.cs" />
