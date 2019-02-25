@@ -22,12 +22,8 @@ public class Demo_D {
             arr[i][1] = sc.nextInt();
         }
         Arrays.sort(arr, new Sort());               //按时间由小到大排序
-        for(int i=0; i<n-1; i++){
 
-        }
-
-
-        System.out.println("------------------");
+        /*System.out.println("------------------");
         for (int i=0; i<n; i++){
             System.out.print(arr[i][0]+" ");
         }
@@ -36,16 +32,28 @@ public class Demo_D {
             System.out.print(arr[i][1]+" ");
         }
         System.out.println();
-        System.out.println("------------------");
-        int fin = 0;
+        System.out.println("------------------");*/
+
+        long fin = 0;
         for (int i=0; i<n; i++){        // 做题顺序
-            int num = 0;
+            long num = 0;
             for (int j = i+1; j<n; j++){    //计算单位疲劳时间
                 num += arr[j][1];
             }
             fin += num * arr[i][0];
         }
         System.out.println(fin);
+
+        long sum= 0,min=0;
+        for (int i = 0; i < n; i++)
+            sum+=arr[i][1];
+        for (int i = 0; i < n; i++) {
+            sum-=arr[i][1];
+            min+=(sum*arr[i][0]);
+
+        }
+        System.out.println(min);
+
 
     }
 
@@ -56,9 +64,6 @@ class Sort implements Comparator<int[]>{
 
     @Override
     public int compare(int[] o1, int[] o2) {
-        if (o1[0] == o2[0] ){
-            return o2[1] - o1[1];
-        }
-        return o1[0] - o2[0];
+        return o1[0]*o2[1]-o1[1]*o2[0];
     }
 }
