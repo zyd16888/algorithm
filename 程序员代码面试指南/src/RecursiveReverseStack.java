@@ -19,6 +19,11 @@ public class RecursiveReverseStack {
         }
         //getAndRemoveLastElement(stack);
         readStack(stack);
+
+//        reverse(stack);
+//        while(!stack.isEmpty()){
+//            System.out.println(stack.pop());
+//        }
     }
 
 
@@ -30,15 +35,25 @@ public class RecursiveReverseStack {
     public static int getAndRemoveLastElement(Stack<Integer> stack){
         int result = stack.pop();
         if (stack.isEmpty()){
-            System.out.println(result);
+            //System.out.println(result);
             return result;
         }else {
             int last = getAndRemoveLastElement(stack);
             stack.push(result);
-            System.out.println(result);
+            //System.out.println(result);
             return last;
         }
     }
+
+    public static void reverse(Stack<Integer> stack){
+        if (stack.isEmpty()){
+            return;
+        }
+        int i = getAndRemoveLastElement(stack);
+        reverse(stack);
+        stack.push(i);
+    }
+
     public static void readStack(Stack<Integer> stack){
         while (!stack.isEmpty()){
             System.out.print(stack.pop() + " ");
