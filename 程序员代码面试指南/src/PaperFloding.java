@@ -27,8 +27,10 @@ public class PaperFloding {
         if (i > n){
             return;
         }
+        //右节点
         printProcess(i+1, n, true);
         System.out.println(down ? "down" : "up");
+        //左节点
         printProcess(i+1, n, false);
     }
 
