@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/blueBridgeCup/bluebridgecup.iml" filepath="$PROJECT_DIR$/blueBridgeCup/bluebridgecup.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/niuke/niuke.iml" filepath="$PROJECT_DIR$/niuke/niuke.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiniuToken/qiniuToken.iml" filepath="$PROJECT_DIR$/qiniuToken/qiniuToken.iml" />
       <module fileurl="file://$PROJECT_DIR$/swordFingerOffer/swordFingerOffer.iml" filepath="$PROJECT_DIR$/swordFingerOffer/swordFingerOffer.iml" />
       <module fileurl="file://$PROJECT_DIR$/程序员代码面试指南/程序员代码面试指南.iml" filepath="$PROJECT_DIR$/程序员代码面试指南/程序员代码面试指南.iml" />
     </modules>
