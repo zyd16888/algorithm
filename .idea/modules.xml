@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EasyLearnAlgorithm/EasyLearnAlgorithm.iml" filepath="$PROJECT_DIR$/EasyLearnAlgorithm/EasyLearnAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blueBridgeCup/bluebridgecup.iml" filepath="$PROJECT_DIR$/blueBridgeCup/bluebridgecup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/niuke/niuke.iml" filepath="$PROJECT_DIR$/niuke/niuke.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swordFingerOffer/swordFingerOffer.iml" filepath="$PROJECT_DIR$/swordFingerOffer/swordFingerOffer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/程序员代码面试指南/程序员代码面试指南.iml" filepath="$PROJECT_DIR$/程序员代码面试指南/程序员代码面试指南.iml" />
+    </modules>
+  </component>
+</project>
