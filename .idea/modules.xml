@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EasyLearnAlgorithm/EasyLearnAlgorithm.iml" filepath="$PROJECT_DIR$/EasyLearnAlgorithm/EasyLearnAlgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/blueBridgeCup/bluebridgecup.iml" filepath="$PROJECT_DIR$/blueBridgeCup/bluebridgecup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cs-notes/cs-notes.iml" filepath="$PROJECT_DIR$/cs-notes/cs-notes.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/niuke/niuke.iml" filepath="$PROJECT_DIR$/niuke/niuke.iml" />
       <module fileurl="file://$PROJECT_DIR$/swordFingerOffer/swordFingerOffer.iml" filepath="$PROJECT_DIR$/swordFingerOffer/swordFingerOffer.iml" />
