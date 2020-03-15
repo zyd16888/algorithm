@@ -1,3 +1,5 @@
+package medium;
+
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -5,7 +7,7 @@ import java.util.Set;
 /**
  * 描述:
  * https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
- * 无重复字符的最长子串
+ * 3.无重复字符的最长子串
  *
  * @author dong
  * @create 2019-03-02 17:00
