@@ -9,11 +9,11 @@ package simple;
  */
 public class PalindromeNumber {
     public boolean isPalindrome(int x) {
-        if (x < 0 || x % 10 == 0) {
-            return false;
-        }
         if (x == 0){
             return true;
+        }
+        if (x < 0 || x % 10 == 0) {
+            return false;
         }
         int num = x;
         int temp = 0;
@@ -22,11 +22,7 @@ public class PalindromeNumber {
             x /= 10;
         }
 
-        if (num == temp){
-            return true;
-        }else {
-            return false;
-        }
+        return num == temp;
 
     }
 }
