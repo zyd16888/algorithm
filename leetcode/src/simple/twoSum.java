@@ -1,3 +1,5 @@
+package simple;
+
 import jdk.jfr.events.ThrowablesEvent;
 
 import java.util.HashMap;
