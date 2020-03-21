@@ -11,6 +11,12 @@ public class WaterAndJugProblem {
     public boolean canMeasureWater(int x, int y, int z) {
         int min = Math.min(x, y);
         while (min >= 0) {
+            if (z == 0) {
+                return true;
+            }
+            if (x + y < z){
+                return false;
+            }
             if (min == 0){
                 return false;
             }
