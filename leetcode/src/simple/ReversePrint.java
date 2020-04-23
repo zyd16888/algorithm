@@ -10,11 +10,6 @@ import java.util.Stack;
  * @author dong
  * @date 2020-04-20 10:24
  */
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
 public class ReversePrint {
     /**
      * 逆序填充数组
