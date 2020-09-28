@@ -1,5 +1,7 @@
 package simple;
 
+import util.ListNode;
+
 import java.util.ArrayList;
 import java.util.Stack;
 

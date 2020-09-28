@@ -1,5 +1,7 @@
 package simple;
 
+import util.ListNode;
+
 /**
  * 描述:
  * 删除链表的节点
