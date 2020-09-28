@@ -1,5 +1,7 @@
 package simple;
 
+import util.TreeNode;
+
 /**
  * 404. 左叶子之和
  *

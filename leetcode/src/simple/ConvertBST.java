@@ -1,5 +1,7 @@
 package simple;
 
+import util.TreeNode;
+
 /**
  * 描述:
  * 538. 把二叉搜索树转换为累加树

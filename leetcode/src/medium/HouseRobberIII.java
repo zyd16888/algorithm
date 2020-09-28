@@ -1,5 +1,7 @@
 package medium;
 
+import util.TreeNode;
+
 /**
  * 描述:
  * 337. 打家劫舍
@@ -51,9 +53,3 @@ public class HouseRobberIII {
 
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) { val = x; }
-}

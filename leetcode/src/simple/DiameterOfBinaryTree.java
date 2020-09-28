@@ -1,5 +1,7 @@
 package simple;
 
+import util.TreeNode;
+
 /**
  * 描述:
  * 543.二叉树的直径
@@ -8,12 +10,6 @@ package simple;
  * @author dong
  * @date 2020-03-10 9:41
  */
-class TreeNode {
-     int val;
-     TreeNode left;
-     TreeNode right;
-     TreeNode(int x) { val = x; }
- }
 
 public class DiameterOfBinaryTree {
     int result = 0;

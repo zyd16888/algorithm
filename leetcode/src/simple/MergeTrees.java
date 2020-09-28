@@ -1,5 +1,7 @@
 package simple;
 
+import util.TreeNode;
+
 /**
  * 617. 合并二叉树
  *
