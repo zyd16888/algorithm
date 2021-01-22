@@ -1,6 +1,6 @@
-package medium;
+package leetcode.medium;
 
-import util.TreeNode;
+import leetcode.util.TreeNode;
 
 /**
  * 描述:

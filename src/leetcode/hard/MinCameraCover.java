@@ -1,6 +1,6 @@
-package hard;
+package leetcode.hard;
 
-import util.TreeNode;
+import leetcode.util.TreeNode;
 
 /**
  * 968. 监控二叉树

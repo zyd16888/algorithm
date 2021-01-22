@@ -1,7 +1,7 @@
-package simple;
+package leetcode.simple;
 
 import java.util.ArrayList;
-import util.TreeNode;
+import leetcode.util.TreeNode;
 
 /**
  * 描述：

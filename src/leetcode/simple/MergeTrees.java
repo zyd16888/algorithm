@@ -1,6 +1,6 @@
-package simple;
+package leetcode.simple;
 
-import util.TreeNode;
+import leetcode.util.TreeNode;
 
 /**
  * 617. 合并二叉树

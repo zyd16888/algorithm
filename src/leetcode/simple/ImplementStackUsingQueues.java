@@ -1,4 +1,4 @@
-package simple;
+package leetcode.simple;
 
 import java.util.ArrayDeque;
 import java.util.LinkedList;

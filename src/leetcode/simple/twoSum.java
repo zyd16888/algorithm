@@ -1,6 +1,5 @@
-package simple;
+package leetcode.simple;
 
-import jdk.jfr.events.ThrowablesEvent;
 
 import java.util.HashMap;
 import java.util.Map;
