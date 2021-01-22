@@ -1,6 +1,6 @@
 package leetcode.Test.simple;
 
-import simple.ImplementStackUsingQueues;
+import leetcode.simple.ImplementStackUsingQueues;
 
 /**
  * 描述:
