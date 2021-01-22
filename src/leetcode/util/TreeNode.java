@@ -1,4 +1,4 @@
-package util;
+package leetcode.util;
 
 public class TreeNode {
     public TreeNode left;

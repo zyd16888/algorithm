@@ -1,4 +1,4 @@
-package util;
+package leetcode.util;
 
 /**
  * 描述:

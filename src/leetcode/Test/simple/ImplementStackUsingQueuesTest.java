@@ -1,4 +1,4 @@
-package Test.simple;
+package leetcode.Test.simple;
 
 import simple.ImplementStackUsingQueues;
 
